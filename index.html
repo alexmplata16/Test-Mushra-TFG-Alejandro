@@ -13,7 +13,7 @@
     <title>BeaqleJS</title>
     
     <!-- load the test config file -->
-    <script src="config/TEST_MUSHRA.json" type="text/javascript"></script>
+    <script src="TEST_MUSHRA.json" type="text/javascript"></script>
     
     <link type="text/css" href="css/smoothness/jquery-ui-1.8.18.custom.css" rel="Stylesheet" />
     <link type="text/css" href="css/styles.css" rel="Stylesheet" />
@@ -25,11 +25,16 @@
     <script type="text/javascript">
     /* <![CDATA[ */
         var testHandle;
-        window.onload=function() {
-            // Uncomment one of the following lines to choose the desired test class
-            testHandle = new MushraTest(TestConfig);    // <-- MUSHRA test class
-            //testHandle = new AbxTest(TestConfig);     // <-- ABX test class
-            $('#Footer').prepend(testHandle.browserFeatureString() + '<br/>');
+        window.onload = function() {
+            try {
+                console.log("Iniciando el test MUSHRA");
+                testHandle = new MushraTest(TestConfig);    // <-- MUSHRA test class
+                $('#Footer').prepend(testHandle.browserFeatureString() + '<br/>');
+                console.log("Test MUSHRA iniciado correctamente");
+            } catch (error) {
+                console.error("Error al iniciar el test MUSHRA:", error);
+                $('#TestTitle').text("Error al cargar el test. Consulte la consola para más detalles.");
+            }
         };
     /* ]]> */
     </script>
@@ -132,7 +137,7 @@
 
     <!-- controls to go to next/previous test -->
     <div id="TestControls" class="commonBox">
-        <button id="BtnNextTest">Next Test</>
+        <button id="BtnNextTest">Next Test</button>
         <button id="BtnPrevTest">Previous Test</button>
     </div>
 
@@ -170,4 +175,5 @@
 
 </body>
 </html>
+
 
