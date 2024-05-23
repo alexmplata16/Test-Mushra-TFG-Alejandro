@@ -1,166 +1,168 @@
 {
-  "test": {
-    "name": "Evaluación de la Calidad de Anonimato e Inteligibilidad",
-    "description": "**Instrucciones para la Evaluación del Test MUSHRA**\n\n¡Bienvenidos y gracias por participar en mi test MUSHRA! Este test tiene como objetivo evaluar la calidad del anonimato, la inteligibilidad y la percepción emocional de una serie de audios originales y sus equivalentes anonimizados. Para asegurar una evaluación precisa, por favor siga las siguientes instrucciones:\n\n1. **Escuche cada par de audios**: Cada evaluación consta de dos audios. Primero, escuche el audio original completo y, a continuación, escuche su equivalente anonimizado.\n\n2. **Evalúe la calidad de cada audio**: Después de escuchar ambos audios, deberá puntuar la calidad de la audición para cada uno. La escala de puntuación es de 0 a 5, donde:\n   - **0** significa que ha escuchado el audio **muy mal**.\n   - **5** significa que ha escuchado el audio **muy bien**.\n\n3. **Puntuación y comentarios**: Para cada par de audios, primero puntúe el audio original y luego el audio anonimizado. Además, si tiene algún comentario sobre la inteligibilidad o la percepción emocional del audio, por favor inclúyalo.\n\n4. **Repita el proceso para cada par de audios**: Este test incluye varios pares de audios. Repita el proceso de escucha y puntuación para cada par.\n\n### Ejemplo de Puntuación\n- **Audio Original**: 4\n- **Audio Anonimizado**: 3\n\n### Escala de Puntuación\n- **0**: Muy mal\n- **1**: Mal\n- **2**: Regular\n- **3**: Bien\n- **4**: Muy bien\n- **5**: Excelente\n\nSu participación es fundamental para mi estudio y agradezco enormemente su colaboración y tiempo. ¡Muchas gracias por su ayuda!\n\n**Notas Adicionales**:\n- Asegúrese de estar en un ambiente tranquilo y sin distracciones para realizar las evaluaciones.\n- Utilice auriculares de buena calidad para obtener mejores resultados de escucha.\n\nSi tiene alguna pregunta durante el proceso, no dude en contactar al organizador del test.\n\n¡Buena suerte y gracias por su participación!",
-    "pages": [
-      {
-        "type": "mushra",
-        "name": "Emoción Neutral - Hombres",
-        "stimuli": [
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses01M_script01_1_M002.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses01M_script01_1_M002.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses02M_script01_2_M001.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses02M_script01_2_M001.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses03M_script01_2_M008.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses03M_script01_2_M008.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses04M_script01_1_M026.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses04M_script01_1_M026.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses05M_script02_2_M016.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses05M_script02_2_M016.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "Emoción Neutral - Mujeres",
-        "stimuli": [
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses01F_script03_2_F004.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses01F_script03_2_F004.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses02F_script03_1_F015.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses02F_script03_1_F015.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses03F_script01_1_F031.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses03F_script01_1_F031.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses04F_script03_1_F017.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses04F_script03_1_F017.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses05F_script03_1_F033.wav",
-          "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses05F_script03_1_F033.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "Emoción Tristeza - Hombres",
-        "stimuli": [
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses01M_script01_3_M035.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses01M_script01_3_M035.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses02M_script01_3_M020.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses02M_script01_3_M020.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses03M_script01_3_M030.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses03M_script01_3_M030.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses04M_script01_1_M034.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses04M_script01_1_M034.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses05M_script01_1_M004.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses05M_script01_1_M004.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "Emoción Tristeza - Mujeres",
-        "stimuli": [
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses01F_script02_2_F022.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses01F_script02_2_F022.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses02F_script01_3_F020.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses02F_script01_3_F020.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses03F_script02_2_F022.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses03F_script02_2_F022.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses04F_script02_2_F019.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses04F_script02_2_F019.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses05F_impro06_F014.wav",
-          "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses05F_impro06_F014.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "Emoción Enfado - Hombres",
-        "stimuli": [
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses01M_script01_2_M015.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses01M_script01_2_M015.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses02M_script01_1_M039.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses02M_script01_1_M039.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses03M_script01_1_M022.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses03M_script01_1_M022.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses04M_script02_2_M007.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses04M_script02_2_M007.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses05M_script01_2_M016.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses05M_script01_2_M016.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "Emoción Enfado - Mujeres",
-        "stimuli": [
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses01F_script02_1_F006.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses01F_script02_1_F006.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses02F_script01_2_F012.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses02F_script01_2_F012.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses03F_script02_1_F012.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses03F_script02_1_F012.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses04F_script01_2_F007.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses04F_script01_2_F007.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses05F_script01_2_F014.wav",
-          "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses05F_script01_2_F014.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "Emoción Alegría - Hombres",
-        "stimuli": [
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses01M_script01_3_M018.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses01M_script01_3_M018.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses02M_script02_1_M025.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses02M_script02_1_M025.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses03M_script02_1_M000.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses03M_script02_1_M000.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses04M_script03_1_M021.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses04M_script03_1_M021.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses05M_script02_1_M003.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses05M_script02_1_M003.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "Emoción Alegría - Mujeres",
-        "stimuli": [
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses01F_script02_2_F043.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses01F_script02_2_F043.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses02F_script03_2_F016.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses02F_script03_2_F016.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses03F_script01_3_F023.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses03F_script01_3_F023.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses04F_script03_1_F011.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses04F_script03_1_F011.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses05F_script01_3_F015.wav",
-          "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses05F_script01_3_F015.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "LIBRI_DEV",
-        "stimuli": [
-          "AUDIOS/LIBRI/DEV/ORIGINAL/HOMBRE/174-50561-0000.wav",
-          "AUDIOS/LIBRI/DEV/ANON/HOMBRE/174-50561-0000.wav",
-          "AUDIOS/LIBRI/DEV/ORIGINAL/HOMBRE/251-136532-0011.wav",
-          "AUDIOS/LIBRI/DEV/ANON/HOMBRE/251-136532-0011.wav",
-          "AUDIOS/LIBRI/DEV/ORIGINAL/MUJER/84-121550-0000.wav",
-          "AUDIOS/LIBRI/DEV/ANON/MUJER/84-121550-0000.wav",
-          "AUDIOS/LIBRI/DEV/ORIGINAL/MUJER/84-121550-0014.wav",
-          "AUDIOS/LIBRI/DEV/ANON/MUJER/84-121550-0014.wav"
-        ]
-      },
-      {
-        "type": "mushra",
-        "name": "LIBRI_TEST",
-        "stimuli": [
-          "AUDIOS/LIBRI/TEST/ORIGINAL/HOMBRE/61-70970-0011.wav",
-          "AUDIOS/LIBRI/TEST/ANON/HOMBRE/61-70970-0011.wav",
-          "AUDIOS/LIBRI/TEST/ORIGINAL/HOMBRE/908-157963-0011.wav",
-          "AUDIOS/LIBRI/TEST/ANON/HOMBRE/908-157963-0011.wav",
-          "AUDIOS/LIBRI/TEST/ORIGINAL/MUJER/121-127105-0011.wav",
-          "AUDIOS/LIBRI/TEST/ANON/MUJER/121-127105-0011.wav",
-          "AUDIOS/LIBRI/TEST/ORIGINAL/MUJER/237-134493-0011.wav",
-          "AUDIOS/LIBRI/TEST/ANON/MUJER/237-134493-0011.wav"
-        ]
+  "TestName": "Evaluación de la Calidad de Anonimato e Inteligibilidad",
+  "LoopByDefault": true,
+  "AutoReturnByDefault": true,
+  "ShowFileIDs": false,
+  "ShowResults": false,
+  "EnableABLoop": true,
+  "EnableOnlineSubmission": false,
+  "BeaqleServiceURL": "",
+  "SupervisorContact": "",
+  "RandomizeTestOrder": true,
+  "MaxTestsPerRun": -1,
+  "RateMinValue": 0,
+  "RateMaxValue": 5,
+  "RateDefaultValue": 0,
+  "RequireMaxRating": false,
+  "Testsets": [
+    {
+      "Name": "Emoción Neutral - Hombres",
+      "Files": {
+        "neutral_hombre_original_1": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses01M_script01_1_M002.wav",
+        "neutral_hombre_anon_1": "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses01M_script01_1_M002.wav",
+        "neutral_hombre_original_2": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses02M_script01_2_M001.wav",
+        "neutral_hombre_anon_2": "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses02M_script01_2_M001.wav",
+        "neutral_hombre_original_3": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses03M_script01_2_M008.wav",
+        "neutral_hombre_anon_3": "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses03M_script01_2_M008.wav",
+        "neutral_hombre_original_4": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses04M_script01_1_M026.wav",
+        "neutral_hombre_anon_4": "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses04M_script01_1_M026.wav",
+        "neutral_hombre_original_5": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/HOMBRE/Ses05M_script02_2_M016.wav",
+        "neutral_hombre_anon_5": "AUDIOS/IEMOCAP/NEUTRAL/ANON/HOMBRE/Ses05M_script02_2_M016.wav"
       }
-    ]
-  }
+    },
+    {
+      "Name": "Emoción Neutral - Mujeres",
+      "Files": {
+        "neutral_mujer_original_1": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses01F_script03_2_F004.wav",
+        "neutral_mujer_anon_1": "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses01F_script03_2_F004.wav",
+        "neutral_mujer_original_2": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses02F_script03_1_F015.wav",
+        "neutral_mujer_anon_2": "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses02F_script03_1_F015.wav",
+        "neutral_mujer_original_3": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses03F_script01_1_F031.wav",
+        "neutral_mujer_anon_3": "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses03F_script01_1_F031.wav",
+        "neutral_mujer_original_4": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses04F_script03_1_F017.wav",
+        "neutral_mujer_anon_4": "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses04F_script03_1_F017.wav",
+        "neutral_mujer_original_5": "AUDIOS/IEMOCAP/NEUTRAL/ORIGINAL/MUJER/Ses05F_script03_1_F033.wav",
+        "neutral_mujer_anon_5": "AUDIOS/IEMOCAP/NEUTRAL/ANON/MUJER/Ses05F_script03_1_F033.wav"
+      }
+    },
+    {
+      "Name": "Emoción Tristeza - Hombres",
+      "Files": {
+        "tristeza_hombre_original_1": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses01M_script01_3_M035.wav",
+        "tristeza_hombre_anon_1": "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses01M_script01_3_M035.wav",
+        "tristeza_hombre_original_2": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses02M_script01_3_M020.wav",
+        "tristeza_hombre_anon_2": "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses02M_script01_3_M020.wav",
+        "tristeza_hombre_original_3": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses03M_script01_3_M030.wav",
+        "tristeza_hombre_anon_3": "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses03M_script01_3_M030.wav",
+        "tristeza_hombre_original_4": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses04M_script01_1_M034.wav",
+        "tristeza_hombre_anon_4": "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses04M_script01_1_M034.wav",
+        "tristeza_hombre_original_5": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/HOMBRE/Ses05M_script01_1_M004.wav",
+        "tristeza_hombre_anon_5": "AUDIOS/IEMOCAP/TRISTEZA/ANON/HOMBRE/Ses05M_script01_1_M004.wav"
+      }
+    },
+    {
+      "Name": "Emoción Tristeza - Mujeres",
+      "Files": {
+        "tristeza_mujer_original_1": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses01F_script02_2_F022.wav",
+        "tristeza_mujer_anon_1": "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses01F_script02_2_F022.wav",
+        "tristeza_mujer_original_2": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses02F_script01_3_F020.wav",
+        "tristeza_mujer_anon_2": "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses02F_script01_3_F020.wav",
+        "tristeza_mujer_original_3": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses03F_script02_2_F022.wav",
+        "tristeza_mujer_anon_3": "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses03F_script02_2_F022.wav",
+        "tristeza_mujer_original_4": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses04F_script02_2_F019.wav",
+        "tristeza_mujer_anon_4": "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses04F_script02_2_F019.wav",
+        "tristeza_mujer_original_5": "AUDIOS/IEMOCAP/TRISTEZA/ORIGINAL/MUJER/Ses05F_impro06_F014.wav",
+        "tristeza_mujer_anon_5": "AUDIOS/IEMOCAP/TRISTEZA/ANON/MUJER/Ses05F_impro06_F014.wav"
+      }
+    },
+    {
+      "Name": "Emoción Enfado - Hombres",
+      "Files": {
+        "enfado_hombre_original_1": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses01M_script01_2_M015.wav",
+        "enfado_hombre_anon_1": "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses01M_script01_2_M015.wav",
+        "enfado_hombre_original_2": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses02M_script01_1_M039.wav",
+        "enfado_hombre_anon_2": "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses02M_script01_1_M039.wav",
+        "enfado_hombre_original_3": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses03M_script01_1_M022.wav",
+        "enfado_hombre_anon_3": "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses03M_script01_1_M022.wav",
+        "enfado_hombre_original_4": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses04M_script02_2_M007.wav",
+        "enfado_hombre_anon_4": "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses04M_script02_2_M007.wav",
+        "enfado_hombre_original_5": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/HOMBRE/Ses05M_script01_2_M016.wav",
+        "enfado_hombre_anon_5": "AUDIOS/IEMOCAP/ENFADO/ANON/HOMBRE/Ses05M_script01_2_M016.wav"
+      }
+    },
+    {
+      "Name": "Emoción Enfado - Mujeres",
+      "Files": {
+        "enfado_mujer_original_1": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses01F_script02_1_F006.wav",
+        "enfado_mujer_anon_1": "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses01F_script02_1_F006.wav",
+        "enfado_mujer_original_2": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses02F_script01_2_F012.wav",
+        "enfado_mujer_anon_2": "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses02F_script01_2_F012.wav",
+        "enfado_mujer_original_3": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses03F_script02_1_F012.wav",
+        "enfado_mujer_anon_3": "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses03F_script02_1_F012.wav",
+        "enfado_mujer_original_4": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses04F_script01_2_F007.wav",
+        "enfado_mujer_anon_4": "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses04F_script01_2_F007.wav",
+        "enfado_mujer_original_5": "AUDIOS/IEMOCAP/ENFADO/ORIGINAL/MUJER/Ses05F_script01_2_F014.wav",
+        "enfado_mujer_anon_5": "AUDIOS/IEMOCAP/ENFADO/ANON/MUJER/Ses05F_script01_2_F014.wav"
+      }
+    },
+    {
+      "Name": "Emoción Alegría - Hombres",
+      "Files": {
+        "alegria_hombre_original_1": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses01M_script01_3_M018.wav",
+        "alegria_hombre_anon_1": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses01M_script01_3_M018.wav",
+        "alegria_hombre_original_2": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses02M_script02_1_M025.wav",
+        "alegria_hombre_anon_2": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses02M_script02_1_M025.wav",
+        "alegria_hombre_original_3": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses03M_script02_1_M000.wav",
+        "alegria_hombre_anon_3": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses03M_script02_1_M000.wav",
+        "alegria_hombre_original_4": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses04M_script03_1_M021.wav",
+        "alegria_hombre_anon_4": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses04M_script03_1_M021.wav",
+        "alegria_hombre_original_5": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/HOMBRE/Ses05M_script02_1_M003.wav",
+        "alegria_hombre_anon_5": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/HOMBRE/Ses05M_script02_1_M003.wav"
+      }
+    },
+    {
+      "Name": "Emoción Alegría - Mujeres",
+      "Files": {
+        "alegria_mujer_original_1": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses01F_script02_2_F043.wav",
+        "alegria_mujer_anon_1": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses01F_script02_2_F043.wav",
+        "alegria_mujer_original_2": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses02F_script03_2_F016.wav",
+        "alegria_mujer_anon_2": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses02F_script03_2_F016.wav",
+        "alegria_mujer_original_3": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses03F_script01_3_F023.wav",
+        "alegria_mujer_anon_3": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses03F_script01_3_F023.wav",
+        "alegria_mujer_original_4": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses04F_script03_1_F011.wav",
+        "alegria_mujer_anon_4": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses04F_script03_1_F011.wav",
+        "alegria_mujer_original_5": "AUDIOS/IEMOCAP/ALEGRÍA/ORIGINAL/MUJERES/Ses05F_script01_3_F015.wav",
+        "alegria_mujer_anon_5": "AUDIOS/IEMOCAP/ALEGRÍA/ANON/MUJERES/Ses05F_script01_3_F015.wav"
+      }
+    },
+    {
+      "Name": "LIBRI DEV",
+      "Files": {
+        "libri_dev_hombre_original_1": "AUDIOS/LIBRI/DEV/ORIGINAL/HOMBRE/174-50561-0000.wav",
+        "libri_dev_hombre_anon_1": "AUDIOS/LIBRI/DEV/ANON/HOMBRE/174-50561-0000.wav",
+        "libri_dev_hombre_original_2": "AUDIOS/LIBRI/DEV/ORIGINAL/HOMBRE/251-136532-0011.wav",
+        "libri_dev_hombre_anon_2": "AUDIOS/LIBRI/DEV/ANON/HOMBRE/251-136532-0011.wav",
+        "libri_dev_mujer_original_1": "AUDIOS/LIBRI/DEV/ORIGINAL/MUJER/84-121550-0000.wav",
+        "libri_dev_mujer_anon_1": "AUDIOS/LIBRI/DEV/ANON/MUJER/84-121550-0000.wav",
+        "libri_dev_mujer_original_2": "AUDIOS/LIBRI/DEV/ORIGINAL/MUJER/84-121550-0014.wav",
+        "libri_dev_mujer_anon_2": "AUDIOS/LIBRI/DEV/ANON/MUJER/84-121550-0014.wav"
+      }
+    },
+    {
+      "Name": "LIBRI TEST",
+      "Files": {
+        "libri_test_hombre_original_1": "AUDIOS/LIBRI/TEST/ORIGINAL/HOMBRE/61-70970-0011.wav",
+        "libri_test_hombre_anon_1": "AUDIOS/LIBRI/TEST/ANON/HOMBRE/61-70970-0011.wav",
+        "libri_test_hombre_original_2": "AUDIOS/LIBRI/TEST/ORIGINAL/HOMBRE/908-157963-0011.wav",
+        "libri_test_hombre_anon_2": "AUDIOS/LIBRI/TEST/ANON/HOMBRE/908-157963-0011.wav",
+        "libri_test_mujer_original_1": "AUDIOS/LIBRI/TEST/ORIGINAL/MUJER/121-127105-0011.wav",
+        "libri_test_mujer_anon_1": "AUDIOS/LIBRI/TEST/ANON/MUJER/121-127105-0011.wav",
+        "libri_test_mujer_original_2": "AUDIOS/LIBRI/TEST/ORIGINAL/MUJER/237-134493-0011.wav",
+        "libri_test_mujer_anon_2": "AUDIOS/LIBRI/TEST/ANON/MUJER/237-134493-0011.wav"
+      }
+    }
+  ]
 }
+
 
 
